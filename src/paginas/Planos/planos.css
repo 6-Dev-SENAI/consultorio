@@ -1,0 +1,7 @@
+.planos {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 1.75em 0em;
+}

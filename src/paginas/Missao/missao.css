@@ -1,0 +1,17 @@
+.titulo-missao {
+  padding-top: 90px;
+  margin-top: 0px;
+}
+
+.missao-intro {
+  width: 80%;
+  margin: 2.5em auto;
+  /* margin-bottom: 1em; */
+}
+
+.objetivos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(76.3vh - (71px + 101px));
+}

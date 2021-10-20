@@ -1,0 +1,70 @@
+.plano-container {
+  padding: 1.5em;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.plano-titulos * {
+  margin: 0px;
+}
+
+.plano-titulos {
+  margin-bottom: 2em !important;
+}
+
+.plano-titulos h2 {
+  font-weight: bold;
+}
+
+.plano-titulos h4 {
+  color: #4d4d4d;
+}
+
+.plano-img-container {
+  border-radius: 100%;
+  border-width: 0.2em;
+  border-color: #1b3675;
+  border-style: solid;
+  padding: 0.5em;
+}
+
+.plano-img-container img {
+  width: 60px;
+}
+
+.plano-valores {
+  font-weight: bold;
+}
+
+.plano-valor-mensal p:nth-child(2),
+.plano-valor-anual p:nth-child(2) {
+  font-size: x-large;
+}
+
+.plano-links p {
+  font-size: smaller;
+  text-decoration: underline;
+  color: #979797;
+}
+
+.plano-btn {
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  background-color: #314f96;
+  padding: 1em 3.5em;
+  color: #fff;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.plano-btn:hover {
+  background-color: #1b3675;
+  box-shadow: 0px 1px 10px #4d4d4d;
+  text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+.obj-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+
+  background-color: #f0f0f0;
+  padding: 0.5em;
+
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+.obj-img-container {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.obj-img-container img {
+  height: 40px;
+}
+
+.obj-img-container p {
+  margin: 0px;
+  margin-top: 0.5em;
+}
+
+.obj-text-container {
+  width: 85%;
+}
