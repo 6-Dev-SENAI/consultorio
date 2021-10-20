@@ -1,8 +1,8 @@
-import './App.css';
-import Rotas from './Rotas';
+import "./App.css";
+import Rotas from "./Rotas";
 
-function App(){
-  return(
+function App() {
+  return (
     <div className="App">
       <Rotas />
     </div>
