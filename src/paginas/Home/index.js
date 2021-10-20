@@ -10,6 +10,21 @@ const Home = () => {
   return (
     <EstruturaPagina>
       <ServicosPrestados />
+      <div className="home-apresentacao">
+        <div className="limitar-container">
+          <h1>Os melhores aparelhos dentários!</h1>
+          <p>
+            Confira abaixo todas as especialidades odontológicas que oferecemos!
+          </p>
+
+          <ul className="lista-servicos">
+            <ServicosPrestados texto="Pré-avaliação" />
+            <ServicosPrestados texto="Aparelhos ortodonticos" />
+            <ServicosPrestados texto="Exames de imagem digital" />
+            <ServicosPrestados texto="Clareamento dental" />
+          </ul>
+        </div>
+      </div>
       <h2 className="titulo-sessao">
         Por que usar <b>aparelho ortodontico</b>
       </h2>
